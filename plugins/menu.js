@@ -21,19 +21,19 @@ let tags = {
   'uploader':'‎‎ رفع الملفات‎',
 }
 const defaultMenu = {
-  before: `السلام عليكم 👋. 
+  before: `🕸go-bot🕸. 
 
 ┏━━ salam  *%name*
 👥 *Total user:* %totalreg 
 ⏰ *Uptime:* %muptime  
 ┗━━━━━━━━━━⬣
 %readmore
-  ≡ *B O B I Z A | M E N U*
+  ≡ *🕸go-bot🕸*
 `.trimStart(),
   header: '┏━━⊜ *_%category_* ',
   body: '┃⋄ %cmd %isdiamond %isPremium',
   footer: '┗━━━━━━━━⬣\n',
-  after: '*إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . لذا إن واجهتك أي مشكلة لا تخجل من سؤال صاحب البوت .رقمه سوف تجده في الأسفل + شارك فيديوهات صاحب البوت تشجيعا له ان كان هذا البوت قد نال إعجابك*\n+212605784394',
+  after: '*اذا في اي مشكله يرجي التواصل مع المطور*\n+201020335785',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
@@ -136,10 +136,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'BOBIZA BOT ♥',
-body: "أول بوت واتساب في العالم العربي 💖",
-thumbnailUrl: 'https://telegra.ph/file/2829c7653514416d207e2.jpg',
-sourceUrl: 'https://instagram.com/noureddine_ouafy',
+title: '🕸go-bot🕸',
+body: "GO 3MK",
+thumbnailUrl: 'https://telegra.ph/file/d763725a57dcddd0360c5.png',
+sourceUrl: 'https://www.instagram.com/yousef_j001?igsh=MTZwcmJkazU0aTBmNA==',
 mediaType: 1,
 renderLargerThumbnail: true
 }}}, { quoted: m})
@@ -158,7 +158,7 @@ renderLargerThumbnail: true
 }
 handler.help = ['menu']
 handler.tags = ['infobot']
-handler.command = ['menu','b','list'] 
+handler.command = ['اوامر','الاوامر','list'] 
 handler.register = false
 
 
